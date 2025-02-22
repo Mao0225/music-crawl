@@ -2,7 +2,7 @@ import os
 import pandas as pd
 from fuzzywuzzy.string_processing import string
 
-#对比文件夹里面的歌曲文件和存储的歌曲信息是否一致
+#对比文件夹里面的歌曲文件和存储的歌曲信息是否一致11111111111111111111111
 def find_missing_songs(csv_file, folder_path):
     # 读取CSV文件，假设第一列是ID，第二列是歌曲名
     df = pd.read_csv(csv_file)
