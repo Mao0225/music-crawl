@@ -8,7 +8,7 @@ import csv
 import os
 import time
 
-# 初始化浏览器驱动
+# 初始化浏览器驱动，chorm需要自行去下载
 service = Service('D:\\Download\\chromedriver-win64\\chromedriver.exe')
 driver = webdriver.Chrome(service=service)
 wait = WebDriverWait(driver, 15)
